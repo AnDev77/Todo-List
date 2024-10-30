@@ -1,3 +1,21 @@
+.container{
+   max-width: 800px;
+   margin :auto;
+   padding : 100px;
+   background-color: #61dafb;
+   color:aliceblue;
+
+}
+
+.test {
+  background: blueviolet;
+  color : saddlebrown;
+  font-size: 30px;
+  font-weight: bord;
+  padding: 20px;
+
+}
+
 .App {
   text-align: center;
 }

@@ -3,22 +3,23 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  let temp : string = '리액트'
+  const style = {
+    backgroundColor :'black',
+    color : 'white',
+    fontSize : '40px',
+    fontWeight : 'bold',
+    padding : '20px'
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1 className='test'> hello, {
+      temp === '리액트' ? <h1>리액트!</h1> : null
+      }</h1>
+      <br/>
+      <p>반갑습니다</p>
+      <input/>
     </div>
   );
 }
