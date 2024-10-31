@@ -1,15 +1,34 @@
+.clock{
+  background-color: burlywood;
+  padding : 20px;
+  color : black;
+  margin : auto;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.board{
+    background-color:blue;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+
+}
+
 .container{
    max-width: 800px;
    margin :auto;
    padding : 100px;
    background-color: #61dafb;
    color:aliceblue;
+   text-align: center;
+   
 
 }
 
 .test {
   background: blueviolet;
-  color : saddlebrown;
+  color : whites;
   font-size: 30px;
   font-weight: bord;
   padding: 20px;
